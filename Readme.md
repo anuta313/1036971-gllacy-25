@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Анна Сидоренко](https://up.htmlacademy.ru/htmlcss/25/user/1036971).
-* Наставник: [Роман Духницький](https://up.htmlacademy.ru/htmlcss/25/user/59884).
+* Наставник: [Роман :) Духницький](https://up.htmlacademy.ru/htmlcss/25/user/59884).
 
 ---
 
