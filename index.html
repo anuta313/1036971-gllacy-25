@@ -10,22 +10,28 @@
     <nav class="main_navigation">
       <a class="gllacy_logo"> 
         <img src="img/gllacy.svg" width="154" height="64" alt="Логотип Gllacy Shop">
-      </a>
-        <ul class="site_navigation">
-          <li><a href="catalog.html">Каталог</a></li>
-          <li><a href="delivery_payment.html">Доставка и оплата</a></li>
-          <li><a href="info.html">О компании</a></li>
+       </a>
+        <ul class="navigation_list">
+          <li class="navigation_item"><a href="catalog.html">Каталог</a></li>
+          <li class="navigation_item"><a href="delivery_payment.html">Доставка и оплата</a></li>
+          <li class="navigation_item"><a href="info.html">О компании</a></li>
         </ul>
         <ul class="user_navigation">
-          <li class="search_link"><a href="форма поиска"><img src="img/search.svg" width="33" height="33" alt="поиск"></a></li>
-          <li class="login_link"><a href="форма входа"><img src="img/login.svg" width="100" height="33" alt="вход"></a></li>
-          <li class="basket_link"><a href="форма корзины"><img src="img/basket.svg" width="100" height="33" alt="корзина"></a></li>
+          <li class="navigation_link">
+            <a href="#"><img src="img/search.svg" width="33" height="33" alt="поиск"></a>
+          </li>
+          <li class="navigation_link">
+            <a href="#"><img src="img/login.svg" width="100" height="33" alt="вход"></a>
+          </li>
+          <li class="navigation_link">
+            <a href="#"><img src="img/basket.svg" width="100" height="33" alt="корзина"></a>
+          </li>
         </ul>
-        <ul class="contacts_shop">
-          <li class="work_time">с 10 до 20 ежедневно</li>
-          <li class="shop_phone">8 812 450-25-25</li>
-        </ul>
-    </nav>
+        <div class="shop_contacts">
+          <p class="work_time">с 10 до 20 ежедневно</p>
+          <p class="work_phone">812 450-25-25</p>
+        </div>
+     </nav>
   </header>
   
   <main class="container">
@@ -50,7 +56,7 @@
                   <button type="buy_two_btn">Давайте оба!</button>
               </li>
             </ul>
-            <ol class="slider_switches">
+            <ul class="slider_switches">
               <li class="first_left_btn"> 
                 <button class="active"></button>
               </li>
@@ -60,7 +66,7 @@
               <li class="third_left_btn">
                 <button class="no_active"></button>
               </li>
-            </ol>
+            </ul>
           </nav>
       </section>
 
@@ -158,8 +164,7 @@
               </section>
   </main>
   <footer class="main_footer">
-      <nav class="sn_navigation">
-        <ul class="site_navigation">
+        <ul class="socials">
           <li>
             <a href="https://twitter.com/"><img src="img/twitter.svg" width="100" height="100" alt="Аккаунт Gllacy Shop в twitter"></a>
           </li>
@@ -173,19 +178,17 @@
             <a href="https://vk.com/"><img src="img/vk.svg" width="100" height="100" alt="Аккаунт Gllacy Shop в ВКонтакте"></a>
           </li>
         </ul>
-        <div>
-          <a href="provider.html"><img src="img/provider.svg" width="15" height="13" alt="Ссылка для постащиков">Для поставщиков</a>
-          <a href="production.html">О производстве</a>
-          <a href="documents.html">Наши документы</a>
-          <a href="env_standards.html">Экологические стандарты</a>
+        <div class="doc_production">
+            <img src="img/marker.svg" width="15" height="13" alt="Маркер">
+            <a href="provider.html">Для поставщиков</a>
+            <a href="production.html">О производстве</a>
+            <a href="documents.html">Наши документы</a>
+            <a href="env_standards.html">Экологические стандарты</a>
         </div>
-        <ul class="info_author">
-            <li class="author_logo">
-              <a class="author_footer_logo"> 
-                <img src="img/author_logo.svg" width="108" height="39" alt="Логотип HTML Academy"></a>
-            <li class="copyright">Сделано в HTML Academy © 2019</li>
-        </ul>
-      </nav>
+        <div class="info_author">
+          <a class="author_footer_logo"><img src="img/author_logo.svg" width="108" height="39" alt="Логотип HTML Academy"></a>
+          <p class="copyright">Сделано в HTML Academy © 2019</p>
+        </div>
   </footer>
 </body>   
 </html>
