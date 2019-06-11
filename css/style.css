@@ -1,8 +1,17 @@
-shop_info
+.main_header
 {
-  width: 1146px;
+/*  width: 1146px;
   height: 306px;
   object-fit: contain;
-  border-radius: 15px;
+  border-radius: 15px;*/
   background-color: #8996a6;
+}
+
+.offer_item
+{
+  width: 560px;
+  height: 229px;
+  object-fit: contain;
+  border-radius: 15px;
+  background-image: url("../img/raspberries.png");
 }
